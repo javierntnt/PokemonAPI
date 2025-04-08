@@ -26,4 +26,24 @@ body {
     margin: 20px;
     display: none;
   }
+  .bottom-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  .bottom-menu button {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  .bottom-menu button:hover {
+    color: #00f0ff;
+  }
+  
   
