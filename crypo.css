@@ -1,54 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: sans-serif;
+    background: #f9f9f9;
   }
   
   .container {
-    width: 50%;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: auto;
   }
   
-  h1 {
-    text-align: center;
-  }
-  
-  .search-box {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  #cryptoInput {
-    width: 70%;
+  #cryptoList li {
+    list-style: none;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  #searchBtn {
-    padding: 10px 20px;
-    margin-left: 10px;
-    border: none;
-    background-color: #28a745;
-    color: #fff;
-    border-radius: 4px;
+    margin: 5px 0;
+    background: #fff;
+    border: 1px solid #ddd;
     cursor: pointer;
   }
   
-  #searchBtn:hover {
-    background-color: #218838;
+  #cryptoList li:hover {
+    background: #f0f0f0;
   }
   
-  .result {
+  #loader {
     text-align: center;
-  }
-  
-  .result img {
-    max-width: 100px;
-    margin: 10px 0;
+    margin: 20px;
+    display: none;
   }
   

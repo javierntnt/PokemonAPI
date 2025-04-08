@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Investigador de Criptomonedas</title>
-  <link rel="stylesheet" href="/crypo.css">
+  <meta charset="UTF-8" />
+  <title>CryptoDex</title>
+  <link rel="stylesheet" href="/crypo.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Investigador de Criptomonedas</h1>
-    <div class="search-box">
-      <input type="text" id="cryptoInput" placeholder="Escribe el nombre de la criptomoneda (ej. bitcoin)">
-      <button id="searchBtn">Buscar</button>
-    </div>
-    <div id="result" class="result"></div>
+    <h1>CryptoDex</h1>
+    <div id="loader">Cargando...</div>
+    <ul id="cryptoList"></ul>
+    <div id="cryptoDetail"></div>
   </div>
-  <script src="/crypo.js"></script>
+
+  <!-- Importamos JS -->
+  <script src="crypo.js/constants.js"></script>
+  <script src="crypo.js/api.js"></script>
+  <script src="crypo.js/loader.js"></script>
+  <script src="crypo.js/ui.js"></script>
+  <script src="crypo.js/list.js"></script>
+  <script src="crypo.js/detail.js"></script>
+  <script src="crypo.js/main.js"></script>
 </body>
 </html>
