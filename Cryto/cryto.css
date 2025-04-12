@@ -17,7 +17,7 @@ button{
     flex-wrap: wrap;
 }
 
-.c-lista-pokemon{
+.c-lista-cripto{
     background-color: aliceblue;
     width: calc(50% - 5px);
     padding: 10px;
